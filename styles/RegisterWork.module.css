@@ -1,0 +1,154 @@
+input.login {
+    border: 1px solid #8692a6 !important;
+    border-radius: 10px;
+  }
+
+  .logo{
+    /* width: 100px !important;
+    height: 25px !important; */
+    margin-right: 30px !important;
+}
+  
+.body{
+    font-family: 'Open Sans', sans-serif !important;
+    background: #E5E5E5;
+  }
+  
+  input.login::placeholder {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #8692a6 !important;
+  }
+  
+  input.login.form-control {
+    width: 100%;
+    height: 2.825rem !important;
+    background: #ffffff !important;
+  }
+  
+  input.login.form-control:active {
+    background: #ffffff;
+  }
+  
+  input.login:-webkit-autofill,
+  input.login:-webkit-autofill:hover,
+  input.login:-webkit-autofill:focus,
+  input.login:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+  }
+  
+  .inputLabelText {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #696f79 !important;
+  }
+  
+  .btn-warning.submit {
+    background-color: #efc81a !important;
+    height: 2.625rem;
+  }
+  
+  .btn-warning.submit:hover {
+    background-color: #f4d032 !important;
+    border-color: rgba(239, 200, 26, 0.8) !important;
+    box-shadow: 0 4px 4px rgba(239, 200, 26, 0.1) inset,
+      0 0 6px rgba(239, 200, 26, 0.9) !important;
+    outline: 0 none;
+  }
+  
+  .title-text,
+  .signup-text {
+    color: #efc81a;
+  }
+  
+  .signup-text:hover {
+    color: #f4d032;
+  }
+  
+  .subtitle-text,
+  .forgot-password-text,
+  .dont-have-an-account-text,
+  .terms-and-conditions-text {
+    color: #8692a6;
+  }
+  
+  .title-text,
+  .subtitle-text,
+  .forgot-password-text,
+  .signup-text,
+  .dont-have-an-account-text,
+  .terms-and-conditions-text {
+    font-family: "Inter", sans-serif;
+  }
+  
+  .title-text {
+    font-weight: 700;
+  }
+  
+  .subtitle-text {
+    font-weight: 400;
+  }
+  
+  .forgot-password-text {
+    font-size: 0.8rem;
+  }
+  
+  .terms-and-conditions-text {
+    margin-top: 0.1rem !important;
+    font-size: 0.8rem;
+  }
+  
+  .signup-text,
+  .terms-and-conditions-text {
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  
+  
+  .backdroplogin {
+    margin-top: -20px;
+    height: 130vh;
+    width: 80%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+    /* background-position: top; */
+    
+    background-image: linear-gradient(
+        to bottom,
+        rgb(94, 80, 161, 0.8),
+        rgba(94, 80, 161, 0.8)
+      ),
+      url("../assets/image/login/login.png") ;
+  }
+  
+  .form_login {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: auto 25px;
+  }
+  .container_form {
+    width: 100%;
+  }
+  @media screen and (max-width: 1000px) {
+    
+    .backdroplogin {
+      display: none;
+    }
+    
+  .form_login {
+    width: 60%;
+    margin: auto auto;
+  }
+  }

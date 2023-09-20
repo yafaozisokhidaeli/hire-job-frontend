@@ -1,0 +1,535 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system,   BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+  .bg{
+    margin: auto;
+    margin-top: 120px;
+    margin-left: 180px;
+    width: 55%;
+    height: 55%;
+    background: #E2E5ED;
+    display: grid;
+    place-items: center;
+    transform: rotate(-20deg);
+  }
+
+  .contain-img{
+    width: 330px;
+    /* margin-left: 180px; */
+    margin-top: -340px;
+  }
+  
+  .container_img{
+    /* z-index: -1; */
+    width: 100%;
+    height: 620px;
+    overflow: hidden;
+    position: relative;
+  }
+  .img{
+    width: 120px;
+    margin-top: -150px !important;
+    z-index: 1;
+    margin-left: 150px;
+  }
+  
+  .container_content{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    /* gap: 5%; */
+    /* background-color: blue; */
+  }
+
+  
+
+  .btn-custom{
+    background: #5E50A1;
+    /* width: 50%; */
+    color: white;
+  }
+
+  .bg1{
+    margin: auto;
+    margin-top: 70px;
+    margin-left: 45px;
+    width: 430px;
+    height: 330px;
+    background: #E2E5ED;
+    display: grid;
+    place-items: center;
+    transform: rotate(20deg);
+  }
+  .contain-img1{
+    width: 430px;
+    margin-left: 40px ;
+    margin-top: -340px;
+  }
+  .container_content1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 120px auto !important;
+  }
+
+  ul li{
+    list-style: none;
+    margin-bottom: 10px;
+  }
+
+  .daftar li span{
+    margin-left: 10px;
+  }
+
+  .bi-check-circle-fill{
+    color: #5E50A1 !important;
+  }
+
+  .text-color{
+    color: #FBB017 !important;
+  }
+
+  .list-skill{
+    /* margin-left: -30px !important; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+  }
+
+  .contain-text2 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start !important;
+    /* background: #5E50A1; */
+  }
+
+  .container_content2{
+    margin: -100px auto;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    /* gap: 5%; */
+  }
+  
+  .bg2{
+    margin: auto;
+    margin-top: 140px;
+    margin-left: 180px;
+    width: 55%;
+    height: 55%;
+    background: #E2E5ED;
+    display: grid;
+    place-items: center;
+    transform: rotate(-20deg);
+  }
+
+  .container_swiper{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container_content3{
+    margin-bottom: 60px;
+    width: 100%;
+    height: 500px;
+    /* background: purple; */
+  }
+  .Card{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 80%;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  .bg-img{
+    width: 100%;
+    height: 100%;
+  }
+  .card-text{
+    /* background: #5E50A1; */
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .card-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50% !important;
+  }
+  
+  .img7{
+    border-radius: 50%;
+    margin-top: 0px !important;
+    
+  }
+
+  .btn3{
+    color: #5E50A1;
+  }
+
+  .container_img4{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 290px;
+    border-radius: 30px 0px 30px 0px;
+    background: #5E50A1;
+    background-image: url(../assets/image/bg-card.svg);
+    background-size: cover;
+    margin-top: 120px;
+  }
+  /* .bg4{
+    width: 100%;
+  } */
+
+  
+
+
+  .container_footer{
+    background: #5E50A1;
+    height: 371px;
+    color: #fff;
+  }
+  .content-footer{
+    padding-top: 80px;
+  }
+
+  @media screen and  (max-width: 576px){
+    .container_content{
+      display: flex;
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center;
+    }
+    .container_content1{
+      display: flex;
+      flex-direction: column !important;
+    }
+    .container_content2{
+      display: flex;
+      flex-direction: column !important;
+    } 
+    .container_content3{
+      display: flex;
+      flex-direction: column !important;
+    }
+    .container_footer{
+      background: #5E50A1;
+      height: 90vh;
+      color: #fff;
+    }
+  }
+  .hallo{
+    display: none;
+  }
+ 
+  .warning {
+    border: 1px solid;
+    margin: 0;
+    height: 100vh !important;
+    padding: 250px 10px 15px 100px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: center 200px;
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2umdLRuUz_lvsI9oaor4Y-5PYKpxgOSMgEA&usqp=CAU');
+  }
+  @media screen and (max-width: 500px){
+    .body{
+      display: none;
+    }
+    .hallo{
+      display: block;
+    }
+    html{
+      background: #22222a;;
+    }
+    
+    .xbox {
+      font-size: 270px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -51%);
+      text-shadow: 0px 0px 4px #009432;
+      color: #22222a;
+    }
+    .xbox .inside {
+      font-size: 100px;
+      background-image: linear-gradient(180deg, white 10%, #171717 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      /* text-fill-color: transparent; */
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+      text-shadow: none;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      z-index: 99;
+    }
+    .xbox:before {
+      content: attr(data-char);
+      font-size: 400px;
+      position: absolute;
+      text-shadow: 0px 0px 5px #00ff56;
+      clip-path: polygon(
+        0% 100%,
+        0% 0%,
+        100% 0%,
+        100% 50%,
+        50% 50%,
+        100% 50%,
+        100% 100%
+      );
+      animation-name: loading;
+      animation-duration: 10s;
+      animation-delay: -0.1s;
+      animation-timing-function: cubic-bezier(0, 0.1, 0.9, 0.81);
+      animation-direction: reverse;
+      mix-blend-mode: color;
+    }
+    .xbox:after {
+      content: attr(data-char);
+      font-size: 400px;
+      position: absolute;
+      text-shadow: 0px 0px 5px black;
+      clip-path: polygon(
+        0% 100%,
+        0% 0%,
+        100% 0%,
+        100% 50%,
+        50% 50%,
+        100% 50%,
+        100% 100%
+      );
+      animation-name: loading;
+      animation-duration: 10s;
+      animation-timing-function: cubic-bezier(0, 0.1, 0.9, 0.81);
+      animation-direction: reverse;
+      mix-blend-mode: color;
+      left: 0;
+      top: 0;
+    }
+    @keyframes loading {
+      0% {
+        clip-path: polygon(
+          0% 100%,
+          0% 0%,
+          100% 0%,
+          100% 50%,
+          50% 50%,
+          100% 50%,
+          100% 100%
+        );
+      }
+      12.5% {
+        clip-path: polygon(
+          0% 100%,
+          0% 0%,
+          100% 0%,
+          100% 50%,
+          50% 50%,
+          100% 100%,
+          100% 100%
+        );
+      }
+      25% {
+        clip-path: polygon(
+          0% 100%,
+          0% 0%,
+          100% 0%,
+          100% 50%,
+          50% 50%,
+          50% 100%,
+          50% 100%
+        );
+      }
+      37.5% {
+        clip-path: polygon(
+          0% 100%,
+          0% 0%,
+          100% 0%,
+          100% 50%,
+          50% 50%,
+          0% 100%,
+          0% 100%
+        );
+      }
+      50% {
+        clip-path: polygon(
+          0% 50%,
+          0% 0%,
+          100% 0%,
+          100% 50%,
+          50% 50%,
+          0% 50%,
+          0% 50%
+        );
+      }
+      62.5% {
+        clip-path: polygon(0% 0%, 0% 0%, 100% 0%, 100% 50%, 50% 50%, 0% 0%, 0% 0%);
+      }
+      75% {
+        clip-path: polygon(
+          50% 0%,
+          50% 0%,
+          100% 0%,
+          100% 50%,
+          50% 50%,
+          50% 0%,
+          50% 0%
+        );
+      }
+      87.5% {
+        clip-path: polygon(
+          100% 0%,
+          100% 0%,
+          100% 0%,
+          100% 50%,
+          50% 50%,
+          100% 0%,
+          100% 0%
+        );
+      }
+      100% {
+        clip-path: polygon(
+          100% 50%,
+          100% 50%,
+          100% 50%,
+          100% 50%,
+          50% 50%,
+          100% 50%,
+          100% 50%
+        );
+      }
+    }
+    @keyframes loading2 {
+      0% {
+        clip-path: polygon(
+          0% 100%,
+          0% 0%,
+          100% 0%,
+          100% 50%,
+          50% 50%,
+          100% 50%,
+          100% 100%
+        );
+      }
+      12.5% {
+        clip-path: polygon(
+          0% 100%,
+          0% 0%,
+          100% 0%,
+          100% 50%,
+          50% 50%,
+          100% 100%,
+          100% 100%
+        );
+      }
+      25% {
+        clip-path: polygon(
+          0% 100%,
+          0% 0%,
+          100% 0%,
+          100% 50%,
+          50% 50%,
+          50% 100%,
+          50% 100%
+        );
+      }
+      37.5% {
+        clip-path: polygon(
+          0% 100%,
+          0% 0%,
+          100% 0%,
+          100% 50%,
+          50% 50%,
+          0% 100%,
+          0% 100%
+        );
+      }
+      50% {
+        clip-path: polygon(
+          0% 50%,
+          0% 0%,
+          100% 0%,
+          100% 50%,
+          50% 50%,
+          0% 50%,
+          0% 50%
+        );
+      }
+      62.5% {
+        clip-path: polygon(0% 0%, 0% 0%, 100% 0%, 100% 50%, 50% 50%, 0% 0%, 0% 0%);
+      }
+      75% {
+        clip-path: polygon(
+          50% 0%,
+          50% 0%,
+          100% 0%,
+          100% 50%,
+          50% 50%,
+          50% 0%,
+          50% 0%
+        );
+      }
+      87.5% {
+        clip-path: polygon(
+          100% 0%,
+          100% 0%,
+          100% 0%,
+          100% 50%,
+          50% 50%,
+          100% 0%,
+          100% 0%
+        );
+      }
+      100% {
+        clip-path: polygon(
+          100% 50%,
+          100% 50%,
+          100% 50%,
+          100% 50%,
+          50% 50%,
+          100% 50%,
+          100% 50%
+        );
+      }
+    }
+  }
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */

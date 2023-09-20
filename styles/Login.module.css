@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:wght@400;500&family=Pacifico&family=Quicksand:wght@400;700&display=swap');
+
+
+input.login {
+  border: 1px solid #8692a6 !important;
+  border-radius: 10px;
+}
+.body{
+  font-family: 'Open Sans', sans-serif !important;
+  background: #E5E5E5;
+}
+.logo {
+  margin-right: 30px !important;
+}
+
+input.login::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: #8692a6 !important;
+}
+
+input.login {
+  width: 80%;
+  height: 2.825rem !important;
+  background: #ffffff !important;
+}
+
+input.login:active {
+  background: #ffffff;
+}
+
+input.login:-webkit-autofill,
+input.login:-webkit-autofill:hover,
+input.login:-webkit-autofill:focus,
+input.login:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.inputLabelText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #696f79 !important;
+  margin-left: 4.75rem !important;
+}
+
+.submit {
+  background-color: #efc81a !important;
+  width: 80% !important;
+  height: 2.625rem;
+  margin-top: 10px;
+}
+.text_{
+  margin-top: -20px;
+}
+
+.submit:hover {
+  background-color: #f4d032 !important;
+  border-color: rgba(239, 200, 26, 0.8) !important;
+  box-shadow: 0 4px 4px rgba(239, 200, 26, 0.1) inset,
+    0 0 6px rgba(239, 200, 26, 0.9) !important;
+  outline: 0 none;
+}
+
+form.login {
+  align-items: center;
+  width: 100% !important ;
+}
+
+.column {
+  width: 100%;
+  height: 100%;
+}
+
+.backdroplogin {
+  height: 100vh;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgb(94, 80, 161, 0.8),
+      rgba(94, 80, 161, 0.8)
+    ),
+    url("../assets/image/login/login.png");
+}
+
+@media screen and (max-width: 1500px) {
+  form.login {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  form.login {
+    width: 60%;
+  }
+
+  .inputLabelText {
+    margin-left: 3.25rem !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .inputLabelText {
+    margin-left: 5.75rem !important;
+  }
+  .backdroplogin{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  form.login {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .inputLabelText {
+    margin-left: 3.5rem !important;
+  }
+}

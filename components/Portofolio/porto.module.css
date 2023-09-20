@@ -1,0 +1,9 @@
+.card_custom{
+    height: 190px;
+    margin-top: 10px;
+    border: none;
+}
+.img{
+    border-radius: 10px;
+    object-fit: cover;
+}
